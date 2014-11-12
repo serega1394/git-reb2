@@ -49,7 +49,5 @@ if ($language == null) {
         }
         $result = (object)array('tokens' => $tokenvalues, "errors" => $errormessages);
         echo json_encode($result);
-    } else {
-        echo '{"tokens": [], "errors": ""}';
     }
 }
