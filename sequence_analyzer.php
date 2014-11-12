@@ -49,7 +49,7 @@ class  qtype_correctwriting_sequence_analyzer extends qtype_correctwriting_abstr
 
 
     public function name() {
-        return 'sequence_analyzer';
+        
     }
 
     /**
